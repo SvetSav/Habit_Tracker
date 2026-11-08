@@ -1,0 +1,58 @@
+@"
+# === Секреты ===
+.env
+.env.*
+!.env.template
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Виртуальные окружения ===
+.venv/
+.venv_test/
+venv/
+env/
+ENV/
+
+# === Django ===
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+*.log
+
+# === Тесты / покрытие ===
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+
+# === IDE / OS ===
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Celery ===
+celerybeat-schedule
+celerybeat.pid
+
+# === Прочее ===
+*.bak
+*.tmp
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+
+tgwsapiproxy-0.1.0/
+tgwsapiproxy-*.tar.gz
+*.tar.gz

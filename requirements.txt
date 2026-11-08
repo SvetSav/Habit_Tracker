@@ -1,0 +1,31 @@
+# --- Django + DRF ---
+Django==4.2.7
+djangorestframework==3.14.0
+djangorestframework_simplejwt==5.5.1
+django-cors-headers==4.3.0
+drf-spectacular==0.26.5
+
+# --- Celery + Redis ---
+celery==5.3.4
+kombu==5.7.0
+redis==8.1.0
+django-celery-beat==2.5.0
+
+# --- Telegram ---
+python-telegram-bot==22.8
+httpx==0.28.1
+socksio==1.0.0
+
+# --- Прокси ---
+tgwsapiproxy==0.1.0
+
+# --- Общее ---
+python-dotenv==1.0.0
+requests==2.31.0
+
+# --- Прод / Docker ---
+gunicorn==21.2.0
+psycopg2-binary==2.9.12
+
+# --- Тесты ---
+coverage==7.3.2
